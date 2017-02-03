@@ -9,4 +9,7 @@ I chose to use [EditorConfig](http://editorconfig.org/) to share the basic confi
 I have chose to use [js-beautify](https://github.com/beautify-web/js-beautify). Despite of his name it works as a beautifier also for HTML and CSS. Every editor has a plugin that implement it, es. [Sublime](https://github.com/victorporof/Sublime-HTMLPrettify) or [Atom](https://atom.io/packages/atom-beautify). The setup for js-beautify is controlled within a `.jsbeautifyrc` file that have to be included in the root directory of the project. For now I decided to auto correct SCSS and JS files, .hbs are not completely supported yet.
 
 #### JS Hint
-To check on JavaScript syntax we use [JSHint](http://jshint.com/). The rules to detect errors are written in a `.jshintrc` file included in the root directory of the project. For now I use it through a [Grunt](http://gruntjs.com/) [plugin](https://github.com/gruntjs/grunt-contrib-jshint) but it is possible to use it with every other task runner or stand alone.
+To check on JavaScript syntax we use [JSHint](http://jshint.com/). The rules to detect errors are written in a `.jshintrc` file included in the root directory of the project.
+
+#### Eslint
+To check on Javascript / React [.js / .jsx] syntax we use [Eslint](http://eslint.org/). The rules to detect errors are written in a `.eslintrc` file included in the root directory of the project.
