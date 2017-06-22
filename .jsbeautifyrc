@@ -20,7 +20,8 @@
         "indent_size": 4, // Indentation size
         "newline_between_rules": true, // Add a new line after every css rule
         "selector_separator": " ",
-        "selector_separator_newline": true // Separate selectors with newline or not (e.g. "a,\nbr" or "a, br")
+        "selector_separator_newline": true // Separate selectors with newline or not (e.g. "a,\nbr" or "a, br"),
+        "space_around_combinator": true // Ensure space around selector separators (>+~)
     },
     "js": {
         "allowed_file_extensions": ["js", "jsx", "json", "jshintrc", "eslintrc", "jsbeautifyrc"],
