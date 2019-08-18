@@ -1,34 +1,56 @@
 {
-    "editor.tabCompletion": "on",
-    "editor.minimap.enabled": false,
-    "editor.formatOnSave": true,
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/.tmp": true,
-        "**/dist": true,
-        "**/build": true
-    },
-    "css.lint.duplicateProperties": "warning",
-    "css.lint.universalSelector": "warning",
-    "scss.lint.duplicateProperties": "warning",
-    "html.format.endWithNewline": true,
-    "editor.tabSize": 2,
-    "html.format.unformatted": "a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, label, map, object, q, samp, select, small, span, strong, sub, sup, textarea, tt, var",
-    "files.associations": {
-        "*.vue": "javascript"
-    },
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "vue"
-    ],
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "editor.fontSize": 14,
-    "window.zoomLevel": 0,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "workbench.colorTheme": "One Monokai",
-    "workbench.iconTheme": "file-icons"
+  "editor.tabCompletion": "on",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.tmp": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "css.lint.duplicateProperties": "warning",
+  "css.lint.universalSelector": "warning",
+  "scss.lint.duplicateProperties": "warning",
+  "html.format.endWithNewline": true,
+  "editor.tabSize": 2,
+  "html.format.unformatted": "a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, label, map, object, q, samp, select, small, span, strong, sub, sup, textarea, tt, var",
+  "workbench.startupEditor": "newUntitledFile",
+  "files.associations": {
+    "*.vue": "javascript"
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "One Monokai",
+  "workbench.iconTheme": "file-icons",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.autoFixOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.panel.defaultLocation": "right",
+  "workbench.colorCustomizations": {
+    "terminal.foreground":"#EEE",
+    "terminal.ansiBlack":"#282C34",
+    "terminal.ansiBlue":"#61AFEF",
+    "terminal.ansiBrightBlack":"#545862",
+    "terminal.ansiBrightBlue":"#61AFEF",
+    "terminal.ansiBrightCyan":"#56B6C2",
+    "terminal.ansiBrightGreen":"#98C379",
+    "terminal.ansiBrightMagenta":"#C678DD",
+    "terminal.ansiBrightRed":"#E06C75",
+    "terminal.ansiBrightWhite":"#C8CCD4",
+    "terminal.ansiBrightYellow":"#E5C07B",
+    "terminal.ansiCyan":"#56B6C2",
+    "terminal.ansiGreen":"#98C379",
+    "terminal.ansiMagenta":"#C678DD",
+    "terminal.ansiRed":"#E06C75",
+    "terminal.ansiWhite":"#ABB2BF",
+    "terminal.ansiYellow":"#E5C07B"
+  },
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "editor.fontSize": 13
 }
