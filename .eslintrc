@@ -16,12 +16,6 @@
   "rules": {
     "no-console": "warn"
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:jest/recommended",
-  ],
-  "plugins": [
-    "import",
-    "jest",
-  ],
+  "extends": ["eslint:recommended", "plugin:jest/recommended"],
+  "plugins": ["import", "jest"]
 }
