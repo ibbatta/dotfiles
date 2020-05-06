@@ -28,7 +28,6 @@
   "workbench.colorTheme": "One Monokai",
   "workbench.iconTheme": "file-icons",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "eslint.autoFixOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.panel.defaultLocation": "right",
   "workbench.colorCustomizations": {
@@ -52,5 +51,8 @@
   },
   "workbench.settings.editor": "json",
   "workbench.settings.useSplitJSON": true,
-  "editor.fontSize": 13
+  "editor.fontSize": 13,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
