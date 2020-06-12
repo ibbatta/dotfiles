@@ -118,3 +118,11 @@ source ~/.bash_profile
 alias brewup="brew update; brew upgrade; brew cleanup; brew doctor"
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
+alias bashprofile="code ~/.bash_profile"
+
+# Add GEM to PATH for scripting
+export GEM_HOME="$HOME/.gem"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="/usr/local/sbin:$PATH"
