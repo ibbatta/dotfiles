@@ -15,14 +15,12 @@
   "html.format.endWithNewline": true,
   "editor.tabSize": 2,
   "html.format.unformatted": "a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, label, map, object, q, samp, select, small, span, strong, sub, sup, textarea, tt, var",
-  "workbench.startupEditor": "newUntitledFile",
   "files.associations": {
     "*.vue": "javascript"
   },
   "eslint.validate": ["javascript", "javascriptreact", "vue"],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": 0,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "workbench.colorTheme": "One Monokai",
@@ -57,5 +55,14 @@
   "editor.fontSize": 13,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
+  },
+  "keyboard.layout": "com.apple.keylayout.Italian-Pro",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.startupEditor": "none",
+  "omnisharp.useGlobalMono": "always",
+  "omnisharp.useEditorFormattingSettings": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.tabSize": 4
   }
 }
